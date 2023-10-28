@@ -1,0 +1,289 @@
+body{
+   background: gray;
+   cursor: pointer;
+}
+
+.agrupar{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    background: aquamarine;
+   
+   
+}
+
+.cabecera{
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+header{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background: #fffbb9;
+    
+
+}
+
+.menu{
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 1%;
+    font-size: 20px;
+   
+}
+
+nav{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #ccc;
+    text-align: center;
+    padding: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+
+.seccion{
+    width: 90%;
+    padding-left: 8%;
+    padding-top: 1.5%; 
+        
+}
+
+section{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5%;
+    background:#fffbcc ; 
+   
+}
+
+section li{
+   width: 100%;
+    font-size: 24px;
+}
+
+ h2 {
+    text-align: center;
+}
+
+.articulo{
+    width: 90%;
+    padding-left: 8%;
+    padding-top: 1%;  
+}
+
+article{
+    border: 1px solid black;
+    border-radius: 5px;
+    background:#fffbcc ; 
+   
+}
+
+article p {
+    width: 80%;
+    font-size: 20px;
+    padding-left: 5%;
+    margin: 0px;
+}
+
+article ol {
+    width: 90%;
+    font-size: 20px;
+    padding-left: 7%;
+   
+}
+
+article img {
+    padding-left: 40%;
+    padding-top: 5%;
+    width: 20%;
+}
+
+article footer{
+       color: black;
+       text-align: right;
+       width: 100%;
+    
+}
+
+.columna{
+    width: 50%;
+    padding-right: 5%;
+    padding-top: 1%;   
+}
+
+aside{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 692px;
+    background: #fffbb9;
+   
+}
+.columna p{
+    width: 70%;
+    font-size: 16px;
+    padding-left: 16%;
+    text-align: center;
+    
+}
+
+.columna img {
+    width: 50%;
+    margin: -30px;
+    padding-left: 30%;
+    
+}
+h3{
+    text-align: center;
+}
+
+.piepagina{
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.piepagina footer {
+    border: 1px solid black;
+    border-radius: 5px;
+    background:#2d3436;
+    padding: 20px;
+    text-align: center;   
+}
+
+.link{
+    color: white;
+}
+
+
+
+.contenedor{
+    display: flex;
+}
+
+@media only screen and (max-width:800px){
+    .contenedor{
+        display: block;
+    }
+    .columna{
+        width: 90%;
+       padding-left: 5%;  
+    }
+
+    .seccion{
+        padding-left: 5%;
+    }
+
+    .articulo{
+        padding-left: 5%;
+        
+    }
+    article{
+        background: red;
+    }
+
+    
+}
+
+@media only screen and (max-width:400px){
+    .menu{
+        width: 90%;
+        font-size: 15px;
+       
+    }
+    nav{
+        background: #ff5a68;
+    }
+
+    h2{
+        color: #8776ff;
+    }
+    article{
+        background:#fffbcc 
+    }
+
+    .contenedor{
+        display: flex;
+    }
+
+    .seccion{
+        width: 90%;
+        padding-left: 8%;
+        
+            
+    }
+    
+    section li{
+       width: 100%;
+       font-size: 16px;
+       height: 108px;
+       
+    }
+    
+
+    .articulo{
+        width: 90%;
+        padding-left: 8%;
+          
+    }
+    
+    article p {
+        width: 80%;
+        font-size: 14px;
+        
+    }
+    
+    article ol {
+       font-size: 14px;   
+    }
+    
+    article img {
+        padding-left: 5%;
+        padding-top: 5%;
+        width: 70%;
+    }
+
+    aside{
+        height: 1000px;
+        background: #e47305;
+       
+    }
+    .columna p{
+        font-size: 15px;
+        text-align: center;   
+    }
+    
+    .columna img {
+        width: 90%;     
+    }
+    h3{
+        text-align: center;
+        color:#069869;
+    }
+    
+    .agrupar{
+        height: 1250px;
+    }
+    
+    
+
+   
+
+}
+
+
+
+
+
+
+
